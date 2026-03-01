@@ -10,6 +10,10 @@ class Settings(BaseSettings):
     anthropic_api_key: str = ""
     openai_api_key: str = ""
     llm_monthly_budget_usd: float = 10.0
+    llm_analyzer_model: str = "ollama/qwen2.5:7b"
+    llm_report_model: str = "gemini/gemini-2.0-flash"
+    llm_query_model: str = "ollama/qwen2.5:7b"
+    ollama_base_url: str = "http://localhost:11434"
 
     # 네이버 쇼핑 API
     naver_client_id: str = ""
