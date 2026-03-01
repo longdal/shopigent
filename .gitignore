@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 환경 설정 (민감 정보)
+.env
+*.env.local
+
+# 가상 환경
+.venv/
+venv/
+env/
+
+# 로컬 데이터 (DB, 리포트 파일)
+data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# 테스트/린트 캐시
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Playwright
+playwright-report/
+
+# uv
+.uv/
